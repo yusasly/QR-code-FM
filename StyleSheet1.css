@@ -1,0 +1,50 @@
+﻿body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    color: #1a1a1a;
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    background-color: hsl(0,0%, 100%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    max-width: 250px;
+    margin: 80px auto 80px auto;
+    background-color: hsl(0,0%, 100%);
+    padding: 15px 15px 20px 15px;
+    border-radius: 14px;
+}
+
+    .container h3 {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .container p {
+        color: hsl(216, 15%, 48%);
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+.container img {
+    max-width: 250px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
